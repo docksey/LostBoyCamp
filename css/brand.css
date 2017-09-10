@@ -1,9 +1,7 @@
-.header {
-    background-image: url('../images/silhouettes_orig.png');
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: right center;
-    height: 400px;
+.header img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
 }
 
 .header h1 {
