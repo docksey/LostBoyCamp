@@ -10,6 +10,12 @@ body {
 
 .under-construction .overlay-image {
     background-image: url("../images/under_construction2.png");
+    /*background-image: url("../images/bailey_cutout.png");*/
     background-size: 30%;
     background-position: center 80%;
+}
+
+footer {
+    color: antiquewhite;
+    opacity: .6;
 }
