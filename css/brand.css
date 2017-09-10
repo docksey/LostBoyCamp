@@ -1,0 +1,11 @@
+.header {
+    background-image: url('../images/silhouettes_orig.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 400px;
+}
+
+.header h1 {
+    padding-top: 30px;
+}
