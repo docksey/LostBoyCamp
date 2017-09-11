@@ -2,16 +2,45 @@ body {
     background-image: url("../images/wood.png");
     background-size: 250px;
     background-repeat: repeat;
+    overflow: auto;
 }
 
-.header img {
+a {
+    display: block;
+}
+
+.shadowbox {
     box-shadow: 5px 5px 20px black;
+}
+
+.content {
+    color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.slideshow {
+    display: none;
+    text-align: center;
+}
+
+.slideshow img {
+    width: 70%;
+    border-radius: 50px;
+    opacity: .8;
+}
+
+.content h1 {
+    text-align: center;
+    font-family: 'OctinSpraypaintFree';
+    color: rgba(255, 255, 255, .3);
 }
 
 .under-construction .overlay-image {
     background-image: url("../images/under_construction2.png");
     /*background-image: url("../images/bailey_cutout.png");*/
-    background-size: 30%;
+    background-size: 10%;
     background-position: center 80%;
 }
 
